@@ -1,4 +1,4 @@
-val="\"34.78\""
+l="'12345'"
 
-if '\"' in val:
-    print("found");
+if l[0] is "'" and l[len(l)-1] is "'":
+	print("yewsss")
